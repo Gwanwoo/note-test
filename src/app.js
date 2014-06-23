@@ -22,6 +22,13 @@ function loadLocalStorage(event){
 	setHtmlCode( window.localStorage.getItem(value) );
 }
 
+function toggle_between_fullscreen(target) {
+	if (screenfull.enabled) {
+		screenfull.toggle(target);
+		console.log("bb");
+	}
+	
+}
 //-------------------------------------------------
 
 
