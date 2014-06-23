@@ -35,4 +35,4 @@ $BtSaveFile.click(function() {
 		type : "text/plain;charset=utf-8"
 	});
 	saveAs(blob, "myNote.txt");
-})//$BtSaveFile.click(save_local_place());
+})//$BtSaveFile.click(save_local_place($contents));
