@@ -15,6 +15,7 @@ function autoLoad(event){
 }
 function clearSave(event){
 	window.localStorage.setItem(selectedKey, " ");
+	 setHtmlCode( window.localStorage.getItem(selectedKey) );
 }
 
 function loadLocalStorage(event){
@@ -22,13 +23,7 @@ function loadLocalStorage(event){
 	setHtmlCode( window.localStorage.getItem(value) );
 }
 
-function toggle_between_fullscreen(target) {
-	if (screenfull.enabled) {
-		screenfull.toggle(target);
-		console.log("bb");
-	}
-	
-}
+
 //-------------------------------------------------
 
 
