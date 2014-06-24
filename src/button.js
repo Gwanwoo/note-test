@@ -15,7 +15,7 @@ function save_local_place(contents) {
 	var blob = new Blob([ storedContent ], {
 		type : "text/plain;charset=utf-8"
 	});
-	saveAs(blob, "myNote.txt");
+	saveAs(blob, "myNote.html");
 }
 
 $BtNewClear.click(function() {
